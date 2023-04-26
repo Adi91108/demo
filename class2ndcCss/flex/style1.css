@@ -1,0 +1,21 @@
+.con{
+background-color: aqua;
+display: flex;
+height: 400px;
+/* flex-direction:row;
+flex-wrap: wrap-reverse; */
+flex-flow: row wrap;
+justify-content: stretch ; 
+align-items:flex-start;
+align-content: ;
+/* it is used to align in x dir the content */
+}
+.con .item{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 2px;
+    font-size: 20px;
+    width: 20%;
+} 

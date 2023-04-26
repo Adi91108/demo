@@ -1,0 +1,50 @@
+/* div{
+    /* display: inline; for chnge in with and height we can use  */
+    /* inline-block */
+    /* display: inline-block;
+    height: 200px;
+    width: 200px;
+
+/* span{
+    /* display: block; */
+    /* visibility: hidden;  */ 
+    /* for hidding content & display none for no even showing in page; */
+    
+/* } */ 
+.grid{
+    
+    width: 100%;
+    height: 500px;
+    background-color: blueviolet;
+}
+
+
+.ct{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    /* grid-template-rows: repeat(12,25%);  */
+    /* row is only for height */
+    /* row-gap: 5px;
+    column-gap: 4px; */
+    gap: 5px 5px;
+    /* phla col gap nd dusra row gap 
+    1)justify is for x axis
+    2) align for y axis*/
+    justify-items:start;
+    /* align-items: center; */
+    /* its short hand for justify nd align item like flexflow */
+    /* place-items: center start; */
+    /* (vertical horizontal) */
+    /* justify-content: start ; */
+    /* justify-items: start; */
+
+}
+.ct .item{
+    /* width: 25%; */
+    background-color: blue;
+    color: white;
+    /* margin: 5px; */
+}

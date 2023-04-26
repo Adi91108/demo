@@ -1,0 +1,29 @@
+.ct{
+    font-family: 'Poppins', sans-serif;
+     width: 100%;
+     height: 500px;
+     display: grid;
+     grid-template-columns: repeat(3,20%);
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+     /* justify-items: center; */
+}
+.ct .grid{
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    /* box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.grid h5{
+    font-size: 10px;
+    font-weight: 800;
+    color: rgb(28, 28, 28);
+    margin: 5px 10px;
+}
+.grid p{
+    font-size: 8px;
+    color: rgb(54, 54, 54);
+    margin: 5px 11px;
+}
