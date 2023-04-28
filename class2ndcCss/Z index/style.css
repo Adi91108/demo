@@ -1,0 +1,38 @@
+body{
+    font-size: 1.4rem;
+}
+
+div{
+    width: 400px;
+    height: 400px;
+    color: white;
+    position: absolute;
+    font-size: 1.2rem;
+}
+.red{
+    background-color:red ;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+}
+.green{
+    background-color:green ;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+}
+.blue{
+    background-color:blue;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+}
+.yellow{
+    background-color:yellow ;
+    
+}
+@media screen {
+    min-width:320px;
+    max-width: 786px;   
+    
+}
