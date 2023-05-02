@@ -26,6 +26,16 @@ height: 80px;
     align-items: center;
     column-gap:35px;
 }
+.nav .nav-left .logo{
+    display: block;
+    height: 49px;
+    margin-right: 16px;
+    transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.nav-left .logo:hover{
+transform: scale(1.1);
+}
+
 .nav-left .location-div{
     font-size: 14px;
     max-width: 300px;
@@ -89,12 +99,28 @@ height: 80px;
     font-size: 28px;
     color: #3d4152;
 }
-
+.item-bar::after{
+    color: #3d4152;
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 81px;
+    height: 1px;
+    background: #e9e9eb;
+}
 .item-bar .filters{
     display: flex;
     align-items:center;
     font-weight: 300;
     color: #686b78;
     gap: 35px;
+    cursor: pointer;
+}
+.filters:hover{
+    border-bottom: 2px solid #282c3f;
+  
+
+
 }
 

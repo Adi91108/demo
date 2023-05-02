@@ -1,0 +1,26 @@
+body{
+    background: #333;
+}
+.box{
+    background: white;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    top: 200px;
+    /* transition-property: background, border-radius, border-color border-width, tranform; 
+    for using all the property ek sth we can us all in that */
+    /* transition-duration: 1s, 2s; */
+    /* transition-delay: 2s 4s; */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+}
+.box:hover{
+    background: red;
+    border-radius: 50%;
+    /* border-color: wheat ;
+    border-width: 2px; */
+    transform: rotateZ(180deg);
+}
