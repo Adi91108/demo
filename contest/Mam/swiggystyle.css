@@ -57,6 +57,11 @@
   .navbar .right {
     position: relative;
   }
+  .navbar .right span:hover {
+    position: relative;
+    color: orangered;
+    font-weight: 300;
+  }
   .location-div .other {
     font-weight: 700;
     color: #3d4152;
